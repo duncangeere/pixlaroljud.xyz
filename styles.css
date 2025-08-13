@@ -1,3 +1,35 @@
+/* Overlay text block attached to right side of image */
+.image-text-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text-container .image {
+    display: block;
+    max-width: 600px;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 2em;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    min-width: 220px;
+    max-width: 70%;
+    padding: 1em 1.5em 0em 1em;
+    box-sizing: border-box;
+    text-align: left;
+    display: block;
+    margin-top: 120px;
+}
+
+.overlay-text p {
+    margin: 0 0 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
 /* Reset and base styles */
 * {
     margin: 0;
