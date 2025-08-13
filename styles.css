@@ -19,7 +19,7 @@
         line-height: 1.3;
     }
     .nextmeetup {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 }
 /* Overlay text block attached to right side of image */
@@ -96,7 +96,7 @@ p a {
 }
 
 p a:hover {
-    color: #BAFFA7;
+    color: #C3C8FF;
     text-decoration: underline;
 }
 
