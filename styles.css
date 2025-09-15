@@ -91,22 +91,17 @@ p {
 }
 
 p a {
-    color: white;
+    color: #C3C8FF;
     text-decoration: none;
 }
 
 p a:hover {
-    color: #C3C8FF;
     text-decoration: underline;
 }
 
 .nextmeetup {
     text-align: center;
     font-weight: bold;
-}
-
-.underline {
-    text-decoration: underline;
 }
 
 /* Responsive design */
