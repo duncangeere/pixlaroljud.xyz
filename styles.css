@@ -105,6 +105,10 @@ p a:hover {
     font-weight: bold;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     body {
