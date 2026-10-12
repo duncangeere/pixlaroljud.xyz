@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixlar o Ljud: get emails about meetups</title>
+  <!-- Keep this page out of search results; it only forwards visitors -->
+  <meta name="robots" content="noindex">
+
+  <!--
+    Short link for the QR code on the printed cards: pixlaroljud.xyz/e
+    Sends visitors on to the email sign-up form.
+    To point the cards at a different form, change the URL in all three places below.
+  -->
+
+  <!-- 1. Redirect that works without JavaScript -->
+  <meta http-equiv="refresh" content="0; url=https://forms.gle/QTuqaFGMbvinqurv5">
+
+  <!-- 2. Faster redirect for browsers with JavaScript. replace() keeps this page
+          out of the back-button history, so Back doesn't bounce people forward again. -->
+  <script>location.replace("https://forms.gle/QTuqaFGMbvinqurv5");</script>
+</head>
+<body>
+  <!-- 3. Fallback link, in case both redirects are blocked -->
+  <p><a href="https://forms.gle/QTuqaFGMbvinqurv5">Go to the email sign-up form</a></p>
+</body>
+</html>
